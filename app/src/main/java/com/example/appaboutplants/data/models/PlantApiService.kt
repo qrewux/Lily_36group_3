@@ -1,4 +1,4 @@
-package com.example.appaboutplants.models
+package com.example.appaboutplants.data.models
 
 import retrofit2.Response
 import retrofit2.http.GET

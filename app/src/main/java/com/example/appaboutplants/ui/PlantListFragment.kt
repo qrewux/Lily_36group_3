@@ -19,8 +19,8 @@ import com.example.appaboutplants.databinding.FragmentPlantListBinding
 import com.example.appaboutplants.databinding.ItemPlantBinding
 import com.example.appaboutplants.domain.PlantDeserializer
 import com.example.appaboutplants.domain.PlantRepository
-import com.example.appaboutplants.models.Plant
-import com.example.appaboutplants.models.PlantApiService
+import com.example.appaboutplants.data.models.Plant
+import com.example.appaboutplants.data.models.PlantApiService
 import com.google.gson.GsonBuilder
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -30,6 +30,7 @@ class PlantListFragment : Fragment(R.layout.fragment_plant_list) {
 
     private lateinit var binding: FragmentPlantListBinding
     private lateinit var viewModel: PlantListViewModel
+
     private val plantListAdapter = PlantListAdapter()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

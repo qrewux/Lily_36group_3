@@ -5,7 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.appaboutplants.domain.PlantRepository
-import com.example.appaboutplants.models.Plant
+import com.example.appaboutplants.data.models.Plant
 import kotlinx.coroutines.launch
 
 class PlantListViewModel(private val plantRepository: PlantRepository) : ViewModel() {

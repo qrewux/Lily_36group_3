@@ -1,6 +1,6 @@
 package com.example.appaboutplants.domain
 
-import com.example.appaboutplants.models.Plant
+import com.example.appaboutplants.data.models.Plant
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer
 import com.google.gson.JsonElement

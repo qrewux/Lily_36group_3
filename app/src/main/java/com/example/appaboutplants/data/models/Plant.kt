@@ -1,4 +1,4 @@
-package com.example.appaboutplants.models
+package com.example.appaboutplants.data.models
 
 data class Plant(
     var id: Int,

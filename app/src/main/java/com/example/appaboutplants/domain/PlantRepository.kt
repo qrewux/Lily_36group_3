@@ -1,8 +1,8 @@
 package com.example.appaboutplants.domain
 
-import com.example.appaboutplants.models.Plant
-import com.example.appaboutplants.models.PlantApiService
-import com.example.appaboutplants.models.PlantDetailsResponse
+import com.example.appaboutplants.data.models.Plant
+import com.example.appaboutplants.data.models.PlantApiService
+import com.example.appaboutplants.data.models.PlantDetailsResponse
 import retrofit2.Response
 
 class PlantRepository(private val plantApiService: PlantApiService) {

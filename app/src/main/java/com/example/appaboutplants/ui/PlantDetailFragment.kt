@@ -13,7 +13,7 @@ import com.bumptech.glide.Glide
 import com.example.appaboutplants.R
 import com.example.appaboutplants.databinding.FragmentPlantDetailBinding
 import com.example.appaboutplants.domain.PlantRepository
-import com.example.appaboutplants.models.PlantApiService
+import com.example.appaboutplants.data.models.PlantApiService
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

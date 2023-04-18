@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.appaboutplants.domain.PlantRepository
-import com.example.appaboutplants.models.DetailPlant
+import com.example.appaboutplants.data.models.DetailPlant
 
 class PlantDetailViewModel(private val plantRepository: PlantRepository) : ViewModel() {
     private val _plant = MutableLiveData<DetailPlant>()
